@@ -61,7 +61,7 @@ To process this experiment using the included ontologies:
 
 1: Clone this repository and create new folders, e.g. s
 
-    gh repo clone https://github.com/cliffore/millms.git
+    gh repo clone https://github.com/city-artificial-intelligence/samul
     cd millms
     mkdir data-processing
     mkdir data-processing/experiments
