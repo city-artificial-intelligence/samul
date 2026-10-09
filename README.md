@@ -1,5 +1,5 @@
 # samul
-Semantic Averaging with Multiple Languages
+## Semantic Averaging with Multiple Languages
 
 This repository contains application code to prepare, process and output a PhD experiment in machinea learning, LLMs, Sparse Autoencoders and Mechanistic Intepretability.
 
