@@ -1,7 +1,7 @@
 # samul
 ## Semantic Averaging with Multiple Languages
 
-This repository contains application code to prepare, process and output a PhD experiment in machine learning, LLMs, Sparse Autoencoders and Mechanistic Intepretability. This repository is tailored to a specific configuration of inputs and ground-truth mappings (taken from the ontology matching task here: https://oaei.ontologymatching.org/2024/conference/index.html and other corpora), but it can be amended to include any sources.
+This repository contains application code to prepare, process and output a PhD experiment in machine learning, LLMs, Sparse Autoencoders and Mechanistic Intepretability. This repository is tailored to a specific configuration of inputs and ground-truth mappings (e.g. from the ontology matching task here: https://oaei.ontologymatching.org/2024/conference/index.html and other corpora), but it can be amended to include any sources.
 
 More detailed runtime configuration is described in the comments in samul.py.
 
