@@ -14,18 +14,18 @@ More detailed runtime configuration is described in the comments in samul.py.
 
 2: Python 3.10.19 and the following libraries (also listed in requirements.txt):
 
-  transformer-lens==2.17.0
-  transformers
-  huggingface_hub
-  torch==2.10.0
-  numpy==1.26.4
-  pandas==2.3.3
-  scikit-learn==1.7.2
-  scipy==1.15.3
-  safetensors
-  blobfile
-  googletrans==4.0.2
-  pyarrow<21
+    transformer-lens==2.17.0
+    transformers
+    huggingface_hub
+    torch==2.10.0
+    numpy==1.26.4
+    pandas==2.3.3
+    scikit-learn==1.7.2
+    scipy==1.15.3
+    safetensors
+    blobfile
+    googletrans==4.0.2
+    pyarrow<21
 
 
 pip install -r requirements.txt
