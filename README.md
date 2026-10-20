@@ -27,7 +27,11 @@ More detailed runtime configuration is described in the comments in samul.py.
     googletrans==4.0.2
     pyarrow<21
 
+3. Run these commands to set up the environment libraries:
 
-pip install -r requirements.txt
-pip install --no-deps "sparse_autoencoder @ git+https://github.com/openai/sparse_autoencoder.git@4965b941e9eb590b00b253a2c406db1e1b193942"
+    pip install -r requirements.txt
+    pip install --no-deps "sparse_autoencoder @ git+https://github.com/openai/sparse_autoencoder.git@4965b941e9eb590b00b253a2c406db1e1b193942"
+
+
+
 
