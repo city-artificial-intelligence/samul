@@ -36,7 +36,7 @@ More detailed runtime configuration is described in the comments in samul.py.
 
         setup.py
 
-This will enable the entry and local storage of the token so that the weights can be downloaded locally.
+   This will enable the entry and local storage of the token so that the weights can be downloaded locally.
 
 5. Change the config.json file to reflect the various local settings needed to run the experiment, including the experiment folder location, file names etc
 
