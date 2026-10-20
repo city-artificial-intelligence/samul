@@ -34,7 +34,7 @@ More detailed runtime configuration is described in the comments in samul.py.
 
 4. An account and credentials to use the GemmaScope SAE via the HuggingFace implementation (details can be found here: https://huggingface.co/google/gemma-scope). Once a token has been created on the HuggingFace account, run the setup script:
 
-        setup.py
+        python setup.py
 
    This will enable the entry and local storage of the token so that the weights can be downloaded locally.
 
@@ -45,7 +45,7 @@ More detailed runtime configuration is described in the comments in samul.py.
 
 2. Start the process with:
 
-        samul.py
+        python samul.py
 
 
 
