@@ -191,7 +191,7 @@ if process_translations:
             print(msg)
             update_log(log_file, msg)
         else:
-            translate_from_source(lang, data_source_file, source_data_folder, log_file, delete_existing)
+            translate_from_source('en', lang, data_source_file, source_data_folder, log_file, delete_existing)
 
 
 # ============================= activations =============================
