@@ -29,12 +29,12 @@ More detailed runtime configuration is described in the comments in samul.py.
 
 3. Run these commands to set up the environment libraries:
 
-    pip install -r requirements.txt
-    pip install --no-deps "sparse_autoencoder @ git+https://github.com/openai/sparse_autoencoder.git@4965b941e9eb590b00b253a2c406db1e1b193942"
+        pip install -r requirements.txt
+        pip install --no-deps "sparse_autoencoder @ git+https://github.com/openai/sparse_autoencoder.git@4965b941e9eb590b00b253a2c406db1e1b193942"
 
 4. An account and credentials to use the GemmaScope SAE via the HuggingFace implementation (details can be found here: https://huggingface.co/google/gemma-scope). Once a token has been created on the HuggingFace account, run the setup script:
 
-    setup.py
+        setup.py
 
 This will enable the entry and local storage of the token so that the weights can be downloaded locally.
 
@@ -42,7 +42,7 @@ This will enable the entry and local storage of the token so that the weights ca
 
 6. Start the process with:
 
-    samul.py
+        samul.py
 
 
 
