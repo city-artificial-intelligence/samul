@@ -10,9 +10,9 @@ More detailed runtime configuration is described in the comments in samul.py.
 
 ### Requirements
 
-1: This experiment has been run successfully on Mac OS running Sequioa 15.3.2
+1. This experiment has been run successfully on Mac OS running Sequioa 15.3.2
 
-2: Python 3.10.19 and the following libraries (also listed in requirements.txt):
+2. Python 3.10.19 and the following libraries (also listed in requirements.txt):
 
         transformer-lens==2.17.0
         transformers
