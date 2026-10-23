@@ -5,6 +5,15 @@ This repository contains application code to prepare, process and output a PhD e
 
 More detailed runtime configuration is described in the comments in samul.py.
 
+The experiment takes a text file as input that contains a concept reference and a fragment of English language. A mapping file is required that provides ground truth similarity score between pairs of texts. This code proceeds to do the following:
+
+a. For each text file, translate the English version into a non-English version (based on the config settings) and store these new translated files,
+b. Both non-English and English texts are processed via LLM Sparse Autoencoders to extract a tensor representation of the feature activations,
+c. For each concept, a tensor average is produced over the English and non-English version (e.g. en/fr and/or en/de),
+d. For each pair of mappings the cosine similarity is computed between the English-only tensor and each average tensor,
+e. The cosine similarities are correlated with the ground truth similarity for each pairing,
+f. A single number is output for each corpus and translated language that measures the effectiveness of the semantic representations from the Sparse Autoencoder and the ground truth similarities from the source corpus.
+
 
 ## 🚀 Usage
 
