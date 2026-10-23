@@ -5,7 +5,7 @@ This repository contains application code to prepare, process and output a PhD e
 
 More detailed runtime configuration is described in the comments in samul.py.
 
-The experiment takes a text file as input that contains a concept reference and a fragment of English language. A mapping file is required that provides ground truth similarity score between pairs of texts. This code proceeds to do the following:
+The experiment takes a text file as input that contains a set of concept references and fragments of English language. A mapping file is required that provides ground truth similarity score between pairs of texts. This code proceeds to do the following:
 
 <ol>
   <li>For each text file, translate the English version into a non-English version (based on the config settings) and store these new translated files,</li>
