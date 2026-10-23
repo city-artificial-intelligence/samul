@@ -16,6 +16,8 @@ The experiment takes a text file as input that contains a set of concept referen
 <li>A single number is output for each corpus and translated language that measures the effectiveness of the semantic representations from the Sparse Autoencoder and the ground truth similarities from the source corpus.</li>
 </ol>
 
+It has been established in previous experiments that the average of the English and non-English text tensor representations is more strongly correlated to the ground truth semantic similarity.
+
 ## 🚀 Usage
 
 ### Requirements
