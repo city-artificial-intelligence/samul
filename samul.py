@@ -80,7 +80,7 @@ activations_source_folder = config["activations_source_folder"] + '_' + corpus
 activations_layer_list = config["activations_layer_list"]
 s_autoencoder = config["sparse_autoencoder"]
 filerepo = config["filerepo"]
-if s_autoencoder == "google/gemma-scope-2b-pt-res":
+if s_autoencoder == "google/gemma-2-2b":
     layer_locations = config[filerepo]
 else:
     layer_locations = ""
